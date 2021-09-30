@@ -34,3 +34,21 @@ footer {
 .text_right {
     text-align: right;
 }
+
+#returnal {
+    background-image: url(../img/jumbo-bg.png);
+    color: white;
+}
+
+#returnal img {
+    width: 60%;
+}
+
+#it_takes_two {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    color: white;
+}
+
+#it_takes_two img {
+    width: 60%;
+}

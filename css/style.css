@@ -52,3 +52,24 @@ footer {
 #it_takes_two img {
     width: 60%;
 }
+
+.card_active {
+    position: relative;
+}
+
+.card_active::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -4px;
+    bottom: -4px;
+    right: -4px;
+    left: -4px;
+    border: 3px solid blue;
+    border-radius: 3%;
+}
+
+.card_active_bottom {
+    border-radius: 0px;
+    border-bottom: 3px solid blue !important;
+}

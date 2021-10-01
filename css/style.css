@@ -1,10 +1,3 @@
-.box {
-    border: 1px solid lightgray;
-    min-height: 80px;
-    background-color: lightgreen;
-}
-
-
 /* Inizio gestione dei font */
 * {
     font-family: Arial, Helvetica, sans-serif;
@@ -28,16 +21,39 @@ footer {
     font-size: 0.9rem;
 }
 
-
-/* Fine gestione dei font */
-
 .text_right {
     text-align: right;
 }
 
+.text_super {
+    font-size: .9rem;
+    text-transform: uppercase;
+}
+/* nsdvjjsdn */
+
+
+.section-title {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+  }
+  
+  .section-title.section-title-small {
+    margin-bottom: 30px;
+    font-size: 2.3rem;
+  }
+  
+  .text_subtitle {
+    color: grey;
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+  }
+/* Fine gestione dei font */
+
+/* Inizio gestione background-image */
 #returnal {
     background-image: url(../img/jumbo-bg.png);
     color: white;
+    background-position-x: center;
 }
 
 #returnal img {
@@ -47,12 +63,24 @@ footer {
 #it_takes_two {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     color: white;
+    background-position-x: center;
 }
 
 #it_takes_two img {
-    width: 60%;
+    width: 50%;
 }
 
+.playstation_items_container img {
+    opacity: 0.5;
+}
+
+.playstation_items_container .card_active_bottom img {
+    opacity: 1;
+}
+
+/* Fine gestione background-image */
+
+/* Inizio gestione card */
 .card_active {
     position: relative;
 }
@@ -73,3 +101,32 @@ footer {
     border-radius: 0px;
     border-bottom: 3px solid blue !important;
 }
+/* Fine gestione card */
+
+/* Inizio gestione padding e margin */
+
+.padding_y_s {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.padding_y_m {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.padding_y_l {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#returnal .padding_y_m {
+    padding-top: 300px;
+    padding-bottom: 50px;
+}
+
+.ps_footer_logo_margin_negative {
+    margin-left: -16px;
+}
+
+

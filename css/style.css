@@ -28,6 +28,7 @@ footer {
 .text_super {
     font-size: .9rem;
     text-transform: uppercase;
+    margin-bottom: 3px;
 }
 /* nsdvjjsdn */
 
@@ -58,6 +59,7 @@ footer {
 
 #returnal img {
     width: 60%;
+    margin-left: -12px;
 }
 
 #it_takes_two {

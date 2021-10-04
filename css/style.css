@@ -187,7 +187,6 @@ header {
 header .navbar-nav .nav-link + .dropdown-menu,
 .navbar .ms-auto .nav-link + .dropdown-menu {
     display: flex;
-    flex-grow: 0;
     position: fixed;
     left: 0;
     right: 0;

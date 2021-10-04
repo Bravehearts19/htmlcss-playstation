@@ -1,3 +1,35 @@
+/* Inizio gestione dei colori */
+:root {
+    --bs-dark-rgb: 31, 31, 31;
+    --bs-secondary-rgb: 190, 188, 187;
+    --bs-info-rgb: 0, 67, 156;
+}
+.btn-dark {
+    background-color: #363636;
+}
+
+.btn-danger {
+    background-color: #CD3D0F;
+}
+
+.btn-info {
+    background-color: #2D64E6;
+}
+
+.bg-secondary .btn-light {
+    background-color: #D9DADC;
+}
+
+.bg_dark_blue {
+    background-color: #161C3B;
+}
+
+.my_text_info {
+    color: #0072CE !important;
+}
+
+/* Fine gestione dei colori */
+
 /* Inizio gestione dei font */
 * {
     font-family: Arial, Helvetica, sans-serif;
@@ -29,9 +61,8 @@ footer {
     font-size: .9rem;
     text-transform: uppercase;
     margin-bottom: 3px;
+    color: #2D64E6 !important;
 }
-/* nsdvjjsdn */
-
 
 .section-title {
     margin-bottom: 30px;
@@ -44,7 +75,7 @@ footer {
   }
   
   .text_subtitle {
-    color: grey;
+    color: #727272;
     font-size: 1.2rem;
     margin-bottom: 0px;
   }
@@ -53,7 +84,7 @@ footer {
 /* Inizio gestione background-image */
 #returnal {
     background-image: url(../img/jumbo-bg.png);
-    color: white;
+    color: white !important;
     background-position-x: center;
 }
 
@@ -64,7 +95,7 @@ footer {
 
 #it_takes_two {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    color: white;
+    color: white !important;
     background-position-x: center;
 }
 
